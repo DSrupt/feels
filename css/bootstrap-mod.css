@@ -1,0 +1,56 @@
+/*to make navbar smaller scale by 1/4 of min height */
+.navbar-nav > li > a {padding-top:6px !important; padding-bottom:6px !important;}
+.navbar {min-height:24px !important}
+/* make navbar different color */
+.navbar-inverse{
+background-color:#B40404;
+border-bottom-color:#B00000;
+}
+.stretch-image{
+width:1280px;
+}
+
+body{
+background-image:url("../Images/tepabg.png");
+    padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+.navbar-nav > li > a{
+font-weight: bold;
+color:#FFFFFF !important;
+}
+.navbar-nav > li > a:hover{
+    color: #333 !important;
+    }
+.container{/*navBar resize*/
+MARGIN-TOP: 0px;
+margin-bottom: -6PX;
+}
+.navbar-toggle{/*toggle Button when screen resizes*/
+    float: left;
+margin-top: -30px;
+    padding: 4px 5px;/*Changes toggle button size*/
+margin-left: 10px;
+}
+#likeonfb{
+float: none;
+}
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+background-color: transparent;
+}
+@media (min-width: 991px){
+.navbar-nav>li {
+float: left;
+padding: 0px 70px !important;
+}
+}
+@media (min-width: 768px){
+.navbar-nav>li {
+float: left;
+padding: 0px 45px !important;
+}
+}
